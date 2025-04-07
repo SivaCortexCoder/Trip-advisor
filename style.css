@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Gabarito", sans-serif;
+}
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+.navbar__section-1 img {
+  width: 188px;
+  cursor: pointer;
+}
+.navbar__section-2 {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar__section-2 a {
+  text-decoration: none;
+  font-size: 17px;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 12px;
+  border-radius: 25px;
+}
+.navbar__section-2 a:hover {
+  background-color: #f2f2f2;
+}
+
+.navbar__section-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.navbar__section-3__1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 25px;
+}
+
+.navbar__section-3__1:hover {
+  background-color: #f2f2f2;
+}
+
+.navbar__section-3__1__text {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.navbar__section-3__2 button {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 40px;
+  border: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 17px;
+}
+/* End of Navbar */
+
+/* whereto */
+
+.whereto {
+  text-align: center;
+  margin: 48px 0px 0px;
+}
+
+.whereto h1 {
+  font-size: 54px;
+}
+
+/* End of whereto */
+
+/* sections */
+.section {
+  margin: 32px 0px 16px;
+}
+.section-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.section-content__items {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.section-content__items p{
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    
+}
+/* end of sections */
+
+
+/* search-bar */
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+
+  
+}
+.search-bar{
+ 
+    padding: 14px 24px;
+    width: 50%;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ 
+}
+.search-bar-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    
+   
+
+}
+.search-bar-input{
+    flex-grow: 1;
+    width: 100%;
+}
+.search-bar-items input{
+    padding: 5px;
+    border: none;
+    font-size: 18px;
+}
+.search-bar-items input:focus{
+    outline: none;
+}
+.search-bar-items button{
+    background-color: #34e0a1;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  position: relative;
+  top: 2px; 
+  left: 5px;   
+  font-size: 16px;
+  font-weight: bold;
+
+
+}
+/* End-of-search-bar */
+
+
+/* Hero-image */
+.hero-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+    
+  
+
+    
+    
+}
+
+.hero-image-main{
+    position: relative;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero-image-main img{
+    width: 100%;
+   
+  
+ 
+}
+
+/* .text-overlay{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    color: white;
+    z-index: 1;
+    width: 80%;
+} */
+/* end-of-hero-image */
+
+
+/* explore-section */
+.explore{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+
+}
+
+.explore-child-text{
+    margin-top: 15px;
+}
+.explore-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    margin-top: 30px;
+
+}
+.explore-card{
+    flex: 1 1 250px; /* grow, shrink, basis */
+    max-width: 300px;
+    position: relative;
+    cursor: pointer;
+}
+.explore-card__h2{
+    position: absolute;
+    bottom: 10px;
+    left: 25px;
+  
+}
+.explore-card__h2 h2{
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+
+
+}
+.explore-card img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    filter: brightness(85%)
+
+}
+
+/* end-of-explore-section */
