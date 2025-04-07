@@ -14,6 +14,9 @@ body {
   align-items: center;
   margin-top: 20px;
   flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+  background-color: white;
 }
 .navbar__section-1 img {
   width: 188px;
