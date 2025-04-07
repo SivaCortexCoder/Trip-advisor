@@ -131,6 +131,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: 30px auto;
+    z-index: 0
 
   
 }
@@ -249,6 +250,7 @@ body {
     max-width: 300px;
     position: relative;
     cursor: pointer;
+    z-index: 0
 }
 .explore-card__h2{
     position: absolute;
